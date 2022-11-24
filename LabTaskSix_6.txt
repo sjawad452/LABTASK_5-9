@@ -1,0 +1,40 @@
+import java.util.*;
+class LabTask6{
+	public static void main(String[] args) {
+	Scanner ob=new Scanner(System.in);
+	System.out.println(" Welcom to BM Restaurant..");
+	System.out.println(" ");
+	System.out.println("This is manu: \n \n1)Burger.\n2)Chocolaty Chai.\n3)baryani.\n4)Chicken karahi.\n5)White chiken karahi.\n6)Beaf pulao.\n7)special chai.\n8)Cold Drinks.");
+System.out.println("\nPlease order! Would you wanna know prize about items\n" +
+ " Enter the number of item.. ");
+     int z=ob.nextInt();
+	switch(z){
+		case 1:
+	 	System.out.println("Burgur.\f Rs.600.0"); 
+		break;
+		case 2:
+		 System.out.println("Chocolaty Chai.\f Rs.550.0"); 
+		 break;
+		 	case 3:
+	 	System.out.println("baryani.\f Rs.250.0"); 
+	 	break;
+	 		case 4:
+	 	System.out.println("Chicken karahi\f Rs.1500.0"); 
+	 	break;
+	 		case 5:
+	 	System.out.println("White karahi.\f Rs.1300.0"); 
+	 	break;
+	 		case 6:
+	 	System.out.println("Beaf pulao plate.\f Rs.400.0"); 
+	 	break;
+	 		case 7:	
+	 	System.out.println("Special chai one cup.\f Rs.120"); 
+	 	break;
+	 		case 8:
+	 	System.out.println("250ml Cold Drinks.\fRs.80"); 
+		default:
+		System.out.println("Sorry, This item is not available. please select among above items..");
+	}
+	System.out.print("\"Thanx for coming..\" \fHave a good Day!");                                                                                                                                       	                		
+	}
+}
